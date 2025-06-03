@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aura Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Aura Tracker</h1>
+  <div id="aura-display"></div>
+
+  <h2>Modify Aura</h2>
+  <select id="person">
+    <option>Jason</option>
+    <option>Tejesh</option>
+    <option>Joel</option>
+    <option>Shahid</option>
+    <option>Rahul</option>
+    <option>Bucta</option>
+  </select>
+  <input type="number" id="amount" placeholder="Amount" />
+  <button onclick="addAura()">Add</button>
+  <button onclick="reduceAura()">Reduce</button>
+
+  <h2>Transfer Aura</h2>
+  From:
+  <select id="from">
+    <option>Jason</option>
+    <option>Tejesh</option>
+    <option>Joel</option>
+    <option>Shahid</option>
+    <option>Rahul</option>
+    <option>Bucta</option>
+  </select>
+  To:
+  <select id="to">
+    <option>Jason</option>
+    <option>Tejesh</option>
+    <option>Joel</option>
+    <option>Shahid</option>
+    <option>Rahul</option>
+    <option>Bucta</option>
+  </select>
+  <input type="number" id="transferAmount" placeholder="Amount" />
+  <button onclick="transferAura()">Transfer</button>
+
+  <h2>History</h2>
+  <ul id="history"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
